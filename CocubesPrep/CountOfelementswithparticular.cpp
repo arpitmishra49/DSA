@@ -1,0 +1,11 @@
+
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    vector<int> n(5);
+    for(int i=0;i<n.size();i++){
+        cin>>n[i];
+        cout<<n[i]<<" ";
+    }
+}
